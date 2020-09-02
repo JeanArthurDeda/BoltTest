@@ -24,7 +24,7 @@ public class SampleSceneMenu : Bolt.GlobalEventListener
             //BoltMatchmaking.CreateSession(Guid.NewGuid().ToString(), null, "SampleScene");
 
             BoltMatchmaking.CreateSession(
-                sessionID: Guid.NewGuid().ToString(),
+                sessionID: "Jocasta",
                 sceneToLoad: "SampleScene"
             );
         }
